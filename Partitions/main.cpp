@@ -1,8 +1,6 @@
-/*
- * C++ Partitions project
- *
- * Author: Michal Dudziak
- */
+// PARTITIONS
+// C++ Language
+// Author: Michal Dudziak
 
 #include <conio.h>
 #include "Partitions.h"
