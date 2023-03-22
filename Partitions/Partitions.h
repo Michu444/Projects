@@ -1,7 +1,0 @@
-#ifndef PROJECTS_PARTITIONS_H
-#define PROJECTS_PARTITIONS_H
-
-
-
-
-#endif
