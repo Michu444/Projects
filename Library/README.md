@@ -13,6 +13,4 @@
     
 
 
-<sub>IDE: Visual Studio</sub>
-
 <sub>Written in C++ by Michal Dudziak.</sub>
