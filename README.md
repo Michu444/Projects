@@ -1,8 +1,8 @@
 #  <span style="color:rgb(0, 150, 180);">Available Projects</span>
 
-### Partitions
+### Partitions ( C++ )
 
-### Library
+### Library ( C++ )
 
 
 </br></br>
