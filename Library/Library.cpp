@@ -1,4 +1,4 @@
-// LIBRARY 
+// LIBRARY
 // C++ Language
 // Author: Michal Dudziak
 

@@ -1,10 +1,10 @@
-#include "PartitionNumbers.h"
+#include "PartitionAlgorithm.h"
 #include <iostream>
 
 using namespace std;
 
 
-void Partition::write()
+void PartitionAlgorithm::write()
 /*
  * Writes found combinations on standard terminal output.
  */
@@ -21,7 +21,7 @@ void Partition::write()
     cout << endl;
 }
 
-bool Partition::isFirst(int k)
+bool PartitionAlgorithm::isFirst(int k)
 /*
  * Check if the passed argument is prime number.
  *
@@ -45,7 +45,7 @@ bool Partition::isFirst(int k)
     return true;
 }
 
-void Partition::findPrimes(int number)
+void PartitionAlgorithm::findPrimes(int number)
 /*
  * Finds all prime numbers to passed argument
  *
@@ -62,7 +62,7 @@ void Partition::findPrimes(int number)
     }
 }
 
-int Partition::checkSum() // check sum of combination
+int PartitionAlgorithm::checkSum() // check sum of combination
 /*
  * Checks sum of the combination. The sum can not be greater than the largest number in the division.
  */
@@ -76,7 +76,7 @@ int Partition::checkSum() // check sum of combination
     return sum;
 }
 
-int Partition::checkMin()
+int PartitionAlgorithm::checkMin()
 /*
  * Finds min index in combination container
  */
@@ -94,7 +94,7 @@ int Partition::checkMin()
     return idx;
 }
 
-void Partition::end(int choose) // changing numbers to 2 from given index
+void PartitionAlgorithm::end(int choose) // changing numbers to 2 from given index
 /*
  * Checks edge case and changes all the words in combination to '2'.
  */
@@ -107,7 +107,7 @@ void Partition::end(int choose) // changing numbers to 2 from given index
     }
 }
 
-void Partition::addTwo(int n)
+void PartitionAlgorithm::addTwo(int n)
 /*
  * Adding '2' to container untill sum + 2 <= n
  *
@@ -126,7 +126,7 @@ void Partition::addTwo(int n)
         return;
 }
 
-void Partition::add(int n, int k)
+void PartitionAlgorithm::add(int n, int k)
 /*
  * Add new numbers to the next words of the current partition.
  *
@@ -165,7 +165,7 @@ void Partition::add(int n, int k)
     }
 }
 
-void Partition::checkCombination(int n, int k)
+void PartitionAlgorithm::checkCombination(int n, int k)
 /*
  * Checks combination of partition if it is correct. If correct writes on standard output, if not skip.
  */
@@ -199,7 +199,7 @@ void Partition::checkCombination(int n, int k)
     }
 }
 
-void Partition::mainAlgorithm(int n, int k)
+void PartitionAlgorithm::mainAlgorithm(int n, int k)
 /*
  * Main method in partitions. Checks many edge cases. Calculates next words in the partition.
  *
@@ -268,7 +268,7 @@ void Partition::mainAlgorithm(int n, int k)
     }
 }
 
-void Partition::clearContainers()
+void PartitionAlgorithm::clearContainers()
 {
     combination.clear();
     primes.clear();

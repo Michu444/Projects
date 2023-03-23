@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Partition
+class PartitionAlgorithm
 {
 private:
     vector<int> primes;

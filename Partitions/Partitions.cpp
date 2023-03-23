@@ -3,7 +3,7 @@
 // Author: Michal Dudziak
 
 #include <conio.h>
-#include "PartitionNumbers.h"
+#include "PartitionAlgorithm.h"
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
 
     while(true)
     {
-        Partition partition;
+        PartitionAlgorithm partition;
 
         int l, iteration = 0;
         int n, k;
