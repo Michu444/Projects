@@ -1,16 +1,30 @@
-#  <span style="color:rgb(0, 150, 180);">Available Projects</span>
+# Partitions
 
-### Partitions ( C++ )
+The division of the number n is a representation of the sum of positive prime numbers such that n = n1 + n2 + ... + nr , where n1 >= n2 >= nr , r - index of last part.
+    
+**INPUT:** In the first line: the number of consecutive lines. In the following lines after a space: n and k where n is the number to decompose, and k is the prime number at which to begin the split.
 
-### Library ( C++ )
+**OUTPUT:** Partitions separated by + . ( if partition exist )
+
+**EXAMPLE:** 
 
 
-</br></br>
+    Input
 
-Each project contains a README file in which the operation of a given project is described.
+    3
+    12 5
+    7 3
+    15 11
 
-</br>
 
-##### <span style="color:rgb(0, 150, 180);"> Author: Michał Dudziak</span>
+    Output:
 
+    5+3+2+2
+    5+5+2
+    3+2+2
+    11+2+2
+
+
+
+<sub>Written in C++ by Michal Dudziak.</sub>
 
