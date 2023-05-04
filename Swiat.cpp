@@ -71,64 +71,6 @@ void Swiat::stworzOrganizmy() // METODA ODPOWIEDZIALNA ZA TWORZENIE ORGANIZMOW N
     int x = 0;
     int y = 0;
 
-    // Sprawdzenie dzialania Guarany na przykladowym organizmie
-    /*
-    Organizm* wilk1 = new Wilk(this, 3, 3);
-    dodajOrganizm(wilk1);
-    Organizm* guarana1 = new Guarana(this, 2, 3);
-    dodajOrganizm(guarana1);
-    Organizm* guarana2 = new Guarana(this, 4, 3);
-    dodajOrganizm(guarana2);
-    Organizm* guarana3 = new Guarana(this, 3, 2);
-    dodajOrganizm(guarana3);
-    Organizm* guarana4 = new Guarana(this, 3, 4);
-    dodajOrganizm(guarana4);
-    */
-
-
-    // Sprawdzenie dzialania rozmnazania organizmu tego samego gatunku
-    /*
-    Organizm* wilk1 = new Wilk(this, 2, 3);
-    dodajOrganizm(wilk1);
-    Organizm* wilk2 = new Wilk(this, 3, 3);
-    dodajOrganizm(wilk2);
-    Organizm* wilk3 = new Wilk(this, 3, 2);
-    dodajOrganizm(wilk3);
-    Organizm* wilk4 = new Wilk(this, 3, 4);
-    dodajOrganizm(wilk4);
-    Organizm* wilk5 = new Wilk(this, 4, 3);
-    dodajOrganizm(wilk5);
-    */
-
-    // Sprawdzenie dzialania akcji dla roznych zwierzat obok siebie
-    /*
-    Organizm* owca1 = new Owca(this, 4, 3);
-    dodajOrganizm(owca1);
-    Organizm* wilk1 = new Wilk(this, 2, 3);
-    dodajOrganizm(wilk1);
-    Organizm* lis1 = new Lis(this, 3, 3);
-    dodajOrganizm(lis1);
-    Organizm* leniwiec1 = new Leniwiec(this, 3, 2);
-    dodajOrganizm(leniwiec1);
-    Organizm* tygrys1 = new Tygrys(this, 3, 4);
-    dodajOrganizm(tygrys1);
-    */
-
-    // Sprawdzenie czy lis poruszy sie na pole z organizmem o wiekszej sile niz on
-    /*
-    Organizm* lis2 = new Lis(this, 3, 3);
-    dodajOrganizm(lis2);
-    Organizm* owca1 = new Owca(this, 2, 3);
-    dodajOrganizm(owca1);
-    Organizm* owca2 = new Owca(this, 3, 2);
-    dodajOrganizm(owca2);
-    Organizm* owca3 = new Owca(this, 3, 4);
-    dodajOrganizm(owca3);
-    Organizm* owca4 = new Owca(this, 4, 3);
-    dodajOrganizm(owca4);
-    */
-
-
     for (int i = 0; i < ileWilkow; i++)
     {
         x = losuj();
@@ -474,8 +416,8 @@ string Swiat::menuGlowne()
 {
     string opcja;
 
-    cout << "    ---    Michal Dudziak 190309    ---" << "\n";
-    cout << "    ---    ---------------------    ---" << "\n";
+    cout << "    ---      Organism Simulator     ---" << "\n";
+    cout << "    ---    ----------------------   ---" << "\n";
     cout << "    ---         MENU GLOWNE         ---" << "\n";
     cout << "    ---    1. Rozpocznij nowa gre   ---" << "\n";
     cout << "    ---    2. Wyjdz z gry           ---" << "\n";
