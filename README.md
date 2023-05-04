@@ -1,4 +1,4 @@
-#  <span style="color:rgb(0, 150, 180);">Available Projects On Different Branche</span>
+#  <span style="color:rgb(0, 150, 180);">Available Projects On Different Branches</span>
 
 ### Partitions ( C++ ) 
 
